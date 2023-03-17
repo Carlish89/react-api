@@ -1,0 +1,17 @@
+.container{
+  height: 100vh;
+}
+.pokemon-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  place-items: center;
+  height: 700px;
+}
+.card{
+  height: 200px;
+  width: 200px;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
